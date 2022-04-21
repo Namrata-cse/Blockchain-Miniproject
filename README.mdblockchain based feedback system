@@ -1,0 +1,7 @@
+# Blockchain-Miniproject
+Designing a blockchain based feedback system: A student will log in into the system and 
+provide the feedback. Miner will collect the feedbacks and check correctness (validity 
+of course code, session, instructor name, etc.). Miner will try to create block by 
+solving the following puzzle:
+Scrypt with memory size 100 and the hash operation x mod 131 with a given seed 
+value randomly generated in a session.
